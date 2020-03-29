@@ -144,7 +144,7 @@ class HomeIndex extends React.Component {
             </div>
           </section>
 
-          <section id="two">
+          <section id="two" style={{ maxWidth: '90vw', maxHeight: 'auto' }}>
             <h2>Sermons and Video Messages</h2>
             <div
               style={{
@@ -156,6 +156,8 @@ class HomeIndex extends React.Component {
             >
               <section>
                 <iframe
+                  className="yt_videos"
+                  title="Sermon, 20/03/29"
                   width="560"
                   height="315"
                   src="https://www.youtube.com/embed/fmY6QfOCbHk"
@@ -166,6 +168,7 @@ class HomeIndex extends React.Component {
               </section>
               <section>
                 <iframe
+                  className="yt_videos"
                   title="Intro Video"
                   width="560"
                   height="315"

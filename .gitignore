@@ -1,0 +1,15 @@
+# Project dependencies
+.cache
+node_modules
+yarn-error.log
+package-lock.json
+yarn.lock
+.env
+.env.development
+.env.production
+# Build directory
+/public
+.DS_Store
+.env
+.env.development
+.env.production
