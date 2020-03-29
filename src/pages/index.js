@@ -144,7 +144,7 @@ class HomeIndex extends React.Component {
             </div>
           </section>
 
-          <section id="two" style={{ maxWidth: '90vw', maxHeight: 'auto' }}>
+          <section id="two">
             <h2>Sermons and Video Messages</h2>
             <div
               style={{
@@ -172,8 +172,6 @@ class HomeIndex extends React.Component {
                   title="Intro Video"
                   width="560"
                   height="315"
-                  maxWidth="90vw"
-                  maxHeight="auto"
                   src="https://www.youtube.com/embed/B7r-ORVKg0M"
                   frameBorder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
