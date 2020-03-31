@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../components/Layout.js'
+import Tag from '../components/Tag.js'
 import Gallery from '../components/Gallery'
 // import { church } from "@fortawesome/free-solid-svg-icons"
 
@@ -252,6 +253,7 @@ class HomeIndex extends React.Component {
               </div>
             </div>
           </section>
+          <Tag />
         </div>
       </Layout>
     )
