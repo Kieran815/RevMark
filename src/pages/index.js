@@ -158,13 +158,38 @@ class HomeIndex extends React.Component {
               <section>
                 <iframe
                   className="yt_videos"
+                  title="Palm Sunday 04/05/2020"
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/eWJzbNBIKI8"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+                <a
+                  href="/blog-posts/holy-week-bulletins/"
+                  className="button"
+                  style={{
+                    borderColor: 'purple',
+                    textColor: 'purple',
+                    marginBottom: '1em',
+                    display: 'flex',
+                    justifyContent: 'center',
+                  }}
+                >
+                  Holy Week Bulletins
+                </a>
+              </section>
+              <section>
+                <iframe
+                  className="yt_videos"
                   title="Sermon, 20/03/29"
                   width="560"
                   height="315"
                   src="https://www.youtube.com/embed/fmY6QfOCbHk"
-                  frameborder="0"
+                  frameBorder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
+                  allowFullScreen
                 ></iframe>
               </section>
               <section>
