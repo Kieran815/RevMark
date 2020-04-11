@@ -46,6 +46,8 @@ $size-header-pad: 4em;
 /* Basic */
 
 body {
+  width: 100vw;
+  max-width: 100vw;
   background: _palette(bg);
 
   &.is-loading {
@@ -1551,6 +1553,11 @@ body.is-touch {
   .\34 u24 {
     width: 100%;
   }
+
+  body {
+    max-width: 100vw;
+  }
+
   #footer-section {
     display: flex;
     flex-direction: column;
