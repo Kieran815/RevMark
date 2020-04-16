@@ -158,6 +158,43 @@ class HomeIndex extends React.Component {
               <section>
                 <iframe
                   className="yt_videos"
+                  title="Sermon, 2020/04/16"
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/Xob1bn_I32Q"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+                <a
+                  href="https://revmmm.files.wordpress.com/2020/04/4-19-2020-bulletin.pdf"
+                  className="button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    marginBottom: '0.5em',
+                    display: 'flex',
+                    justifyContent: 'center',
+                  }}
+                >
+                  Bulletin: Sunday, April 16th
+                </a>
+              </section>
+              <section>
+                <iframe
+                  className="yt_videos"
+                  title="Easter Sunday 2020/04/12"
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/0GJY29rGKsc"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </section>
+              <section>
+                <iframe
+                  className="yt_videos"
                   title="Good Friday 2020/04/10"
                   width="560"
                   height="315"
@@ -201,13 +238,13 @@ class HomeIndex extends React.Component {
                     justifyContent: 'center',
                   }}
                 >
-                  Holy Week Bulletins
+                  Bulletins: Holy Week 2020
                 </a>
               </section>
               <section>
                 <iframe
                   className="yt_videos"
-                  title="Sermon, 20/03/29"
+                  title="Sermon, 2020/03/29"
                   width="560"
                   height="315"
                   src="https://www.youtube.com/embed/fmY6QfOCbHk"
@@ -229,7 +266,7 @@ class HomeIndex extends React.Component {
                 />
               </section>
             </div>
-
+            {/* End of YouTube Videos */}
             <div
               className="actions"
               style={{
