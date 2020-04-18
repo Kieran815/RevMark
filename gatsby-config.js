@@ -29,7 +29,7 @@ module.exports = {
     {
       resolve: `gatsby-source-wordpress`,
       options: {
-        baseUrl: process.env.WP_BASE_URL,
+        baseUrl: "revmmm.wordpress.com/",
         protocol: `https`,
         hostingWPCOM: true,
         useACF: false,

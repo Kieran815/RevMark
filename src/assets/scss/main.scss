@@ -79,8 +79,7 @@ a {
       'border-color #{_duration(transition)} ease-in-out'
     )
   );
-  border-bottom: dotted 1px;
-  color: _palette(accent1, bg);
+  color: "blue";
   text-decoration: none;
 
   &:hover {
@@ -835,7 +834,7 @@ input[type='button'],
   );
   background-color: transparent;
   border-radius: _size(border-radius);
-  border: solid 3px _palette(border);
+  border: solid 3px blue;
   color: _palette(fg-bold) !important;
   cursor: pointer;
   display: inline-block;

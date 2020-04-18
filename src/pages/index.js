@@ -155,31 +155,31 @@ class HomeIndex extends React.Component {
                 marginBottom: '1em',
               }}
             >
-              <section>
-                <iframe
-                  className="yt_videos"
-                  title="Sermon, 2020/04/16"
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/Xob1bn_I32Q"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
-                <a
-                  href="https://revmmm.files.wordpress.com/2020/04/4-19-2020-bulletin.pdf"
-                  className="button"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{
-                    marginBottom: '0.5em',
-                    display: 'flex',
-                    justifyContent: 'center',
-                  }}
-                >
-                  Bulletin: Sunday, April 16th
-                </a>
-              </section>
+            <section>
+              <iframe
+                className="yt_videos"
+                title="Sermon, 2020/04/19"
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/Xob1bn_I32Q"
+                frameBorder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+              <a
+                href="https://revmmm.files.wordpress.com/2020/04/4-19-2020-bulletin.pdf"
+                className="button"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  marginBottom: '0.5em',
+                  display: 'flex',
+                  justifyContent: 'center',
+                }}
+              >
+                Bulletin: Sunday, April 19th
+              </a>
+            </section>
               <section>
                 <iframe
                   className="yt_videos"
