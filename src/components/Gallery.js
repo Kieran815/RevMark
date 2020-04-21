@@ -19,10 +19,10 @@ class Gallery extends Component {
       selectedIndex,
     }))
   }
-  renderGallery(images) {
-    if (!images) return
+  renderGallery(content) {
+    if (!content) return
 
-    const gallery = images.map((obj, i) => {
+    const gallery = content.map((obj, i) => {
       return (
         <article className="6u 12u$(xsmall) work-item" key={i}>
           <a
@@ -49,16 +49,16 @@ class Gallery extends Component {
     return <div className="row">{gallery}</div>
   }
   render() {
-    const { images } = this.props
+    const { content } = this.props
     const { selectedIndex, lightboxIsOpen } = this.state
 
     return (
       <div>
-        {this.renderGallery(images)}
+        {this.renderGallery(content)}
         <ModalGateway>
           {lightboxIsOpen && (
             <Modal onClose={this.toggleLightbox}>
-              <Carousel currentIndex={selectedIndex} views={images} />
+              <Carousel currentIndex={selectedIndex} views={content} />
             </Modal>
           )}
         </ModalGateway>
@@ -69,7 +69,7 @@ class Gallery extends Component {
 
 Gallery.displayName = 'Gallery'
 Gallery.propTypes = {
-  images: PropTypes.array,
+  content: PropTypes.array,
 }
 
 export default Gallery

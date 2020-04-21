@@ -1,7 +1,7 @@
-import React from 'react'
-import Layout from '../components/Layout.js'
-import Tag from '../components/Tag.js'
-import Gallery from '../components/Gallery'
+import React from 'react';
+import Layout from '../components/Layout.js';
+import Tag from '../components/Tag.js';
+import Gallery from '../components/Gallery';
 // import { church } from "@fortawesome/free-solid-svg-icons"
 
 import thumb01 from '../assets/images/thumbs/InTheGarden.jpg'

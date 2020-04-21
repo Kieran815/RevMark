@@ -32,8 +32,8 @@ module.exports = {
         baseUrl: "revmmm.wordpress.com/",
         protocol: `https`,
         hostingWPCOM: true,
-        useACF: false,
-      },
+        useACF: false
+      }
     },
     {
       resolve: 'gatsby-plugin-firebase',
@@ -41,12 +41,12 @@ module.exports = {
         features: {
           auth: true,
           database: true,
-          firestore: false,
-          storage: false,
-          messaging: false,
+          firestore: true,
+          storage: true,
+          messaging: true,
           functions: true,
-          performance: false,
-          analytics: false,
+          performance: true,
+          analytics: true,
         },
         credentials: {
           apiKey: process.env.GFB_API_KEY,
@@ -59,5 +59,13 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: `gatsby-source-youtube`,
+      options: {
+        channelId: 'UCSc6ebNSxRFrbenT97g6u4Q',
+        apiKey: process.env.YT_API_KEY,
+        maxVideos: 50
+      }
+    }
   ],
 }
