@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../components/Layout.js';
 import Tag from '../components/Tag.js';
 import Gallery from '../components/Gallery';
-// import { church } from "@fortawesome/free-solid-svg-icons"
+import { church } from "@fortawesome/free-solid-svg-icons"
 
 import thumb01 from '../assets/images/thumbs/InTheGarden.jpg'
 import thumb02 from '../assets/images/thumbs/GoodShepherd.jpg'
@@ -155,31 +155,34 @@ class HomeIndex extends React.Component {
                 marginBottom: '1em',
               }}
             >
-            <section>
-              <iframe
-                className="yt_videos"
-                title="Sermon, 2020/04/19"
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/Xob1bn_I32Q"
-                frameBorder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
-              <a
-                href="https://revmmm.files.wordpress.com/2020/04/4-19-2020-bulletin.pdf"
-                className="button"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{
-                  marginBottom: '0.5em',
-                  display: 'flex',
-                  justifyContent: 'center',
-                }}
-              >
-                Bulletin: Sunday, April 19th
-              </a>
-            </section>
+              <section>
+                <iframe className="yt_videos" title="Children's Bible Stories - April 21, 2020" width="560" height="315" src="https://www.youtube.com/embed/FBfxOPCnopk" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              </section>
+              <section>
+                <iframe
+                  className="yt_videos"
+                  title="Sermon, 2020/04/19"
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/Xob1bn_I32Q"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+                <a
+                  href="https://revmmm.files.wordpress.com/2020/04/4-19-2020-bulletin.pdf"
+                  className="button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    marginBottom: '0.5em',
+                    display: 'flex',
+                    justifyContent: 'center',
+                  }}
+                >
+                  Bulletin: Sunday, April 19th
+                </a>
+              </section>
               <section>
                 <iframe
                   className="yt_videos"
@@ -308,11 +311,11 @@ class HomeIndex extends React.Component {
                     marginBottom: '2em',
                   }}
                 >
-                  <div style={{ display: 'flex' }}>
+                  <div style={{ display: 'flex', alignItems: "center", margin: "0.25em" }}>
                     <h3 className="icon fa-home">
                       <span className="label">home</span>
                     </h3>
-                    <p style={{ marginBottom: '0.5em' }}>
+                    <p>
                       12 West Sauk Trail
                       <br />
                       Frankfort, Il 60423
