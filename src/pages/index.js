@@ -156,12 +156,80 @@ class HomeIndex extends React.Component {
               }}
             >
               <section>
-                <iframe className="yt_videos" title="Children's Bible Stories - April 21, 2020" width="560" height="315" src="https://www.youtube.com/embed/FBfxOPCnopk" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <iframe
+                  className="yt_videos"
+                  title="Bible Stories 2020/04/28"
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/7oGPLpq3ueU"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
               </section>
               <section>
                 <iframe
                   className="yt_videos"
-                  title="Sermon, 2020/04/19"
+                  title="Earth Day 2020"
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/MyrAfui7YjY"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </section>
+              <section>
+                <iframe
+                  className="yt_videos"
+                  title="Sermon 2020/04/26"
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/MZWoMzb9Cng" frameBorder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+                <a
+                  href="https://revmmm.files.wordpress.com/2020/04/4-26-2020-bulletin.pdf"
+                  className="button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    marginBottom: '0.5em',
+                    display: 'flex',
+                    justifyContent: 'center',
+                  }}
+                >
+                  Bulletin: Sunday, April 26th
+                </a>
+              </section>
+              <section>
+                <iframe
+                  className="yt_videos"
+                  title="Bible Stories 2020/04/22"
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/nfrMhlyloqQ"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen></iframe>
+              </section>
+              <section>
+                <iframe
+                  className="yt_videos"
+                  title="Children's Bible Stories - April 21, 2020"
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/FBfxOPCnopk"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </section>
+              <section>
+                <iframe
+                  className="yt_videos"
+                  title="Sermon 2020/04/19"
                   width="560"
                   height="315"
                   src="https://www.youtube.com/embed/Xob1bn_I32Q"
