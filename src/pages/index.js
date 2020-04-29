@@ -1,8 +1,8 @@
-import React from 'react';
-import Layout from '../components/Layout.js';
-import Tag from '../components/Tag.js';
-import Gallery from '../components/Gallery';
-import { church } from "@fortawesome/free-solid-svg-icons"
+import React from 'react'
+import Layout from '../components/Layout.js'
+import Tag from '../components/Tag.js'
+import Gallery from '../components/Gallery'
+import { church } from '@fortawesome/free-solid-svg-icons'
 
 import thumb01 from '../assets/images/thumbs/InTheGarden.jpg'
 import thumb02 from '../assets/images/thumbs/GoodShepherd.jpg'
@@ -134,6 +134,9 @@ class HomeIndex extends React.Component {
               <a href="/blog-posts" className="button">
                 Messages
               </a>
+              <a href="/bible_stories" className="button">
+                Messages for Kids
+              </a>
               <a
                 href="https://stpetersfrankfort.org/the-key"
                 className="button"
@@ -158,34 +161,11 @@ class HomeIndex extends React.Component {
               <section>
                 <iframe
                   className="yt_videos"
-                  title="Bible Stories 2020/04/28"
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/7oGPLpq3ueU"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
-              </section>
-              <section>
-                <iframe
-                  className="yt_videos"
-                  title="Earth Day 2020"
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/MyrAfui7YjY"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
-              </section>
-              <section>
-                <iframe
-                  className="yt_videos"
                   title="Sermon 2020/04/26"
                   width="560"
                   height="315"
-                  src="https://www.youtube.com/embed/MZWoMzb9Cng" frameBorder="0"
+                  src="https://www.youtube.com/embed/MZWoMzb9Cng"
+                  frameBorder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 ></iframe>
@@ -202,29 +182,6 @@ class HomeIndex extends React.Component {
                 >
                   Bulletin: Sunday, April 26th
                 </a>
-              </section>
-              <section>
-                <iframe
-                  className="yt_videos"
-                  title="Bible Stories 2020/04/22"
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/nfrMhlyloqQ"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen></iframe>
-              </section>
-              <section>
-                <iframe
-                  className="yt_videos"
-                  title="Children's Bible Stories - April 21, 2020"
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/FBfxOPCnopk"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
               </section>
               <section>
                 <iframe
@@ -368,44 +325,48 @@ class HomeIndex extends React.Component {
           </section>
 
           <section id="three">
-            <div>
-              <div className="labeled-icons">
+            <div className="labeled-icons">
+              <div
+                id="footer-section"
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'space-around',
+                  marginBottom: '2em',
+                }}
+              >
                 <div
-                  id="footer-section"
                   style={{
                     display: 'flex',
                     alignItems: 'center',
-                    justifyContent: 'space-around',
-                    marginBottom: '2em',
+                    margin: '0.25em',
                   }}
                 >
-                  <div style={{ display: 'flex', alignItems: "center", margin: "0.25em" }}>
-                    <h3 className="icon fa-home">
-                      <span className="label">home</span>
-                    </h3>
-                    <p>
-                      12 West Sauk Trail
-                      <br />
-                      Frankfort, Il 60423
-                      <br />
-                      United States
-                    </p>
-                  </div>
-                  <div style={{ display: 'flex' }}>
-                    <h3 className="icon fa-mobile">
-                      <span className="label">Phone</span>
-                    </h3>
-                    <a href="tel: 815-469-2220">(815) 469-2220</a>
-                  </div>
+                  <h3 className="icon fa-home">
+                    <span className="label">home</span>
+                  </h3>
+                  <p>
+                    12 West Sauk Trail
+                    <br />
+                    Frankfort, Il 60423
+                    <br />
+                    United States
+                  </p>
+                </div>
+                <div style={{ display: 'flex' }}>
+                  <h3 className="icon fa-mobile">
+                    <span className="label">Phone</span>
+                  </h3>
+                  <a href="tel: 815-469-2220">(815) 469-2220</a>
+                </div>
 
-                  <div style={{ display: 'flex' }}>
-                    <h3 className="icon fa-envelope-o">
-                      <span className="label">Email</span>
-                    </h3>
-                    <a href="mailto:stpetersrevmmm@gmail.com">
-                      stpetersrevmmm@gmail.com
-                    </a>
-                  </div>
+                <div style={{ display: 'flex' }}>
+                  <h3 className="icon fa-envelope-o">
+                    <span className="label">Email</span>
+                  </h3>
+                  <a href="mailto:stpetersrevmmm@gmail.com">
+                    stpetersrevmmm@gmail.com
+                  </a>
                 </div>
               </div>
             </div>

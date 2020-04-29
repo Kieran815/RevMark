@@ -29,11 +29,11 @@ module.exports = {
     {
       resolve: `gatsby-source-wordpress`,
       options: {
-        baseUrl: "revmmm.wordpress.com/",
+        baseUrl: 'revmmm.wordpress.com/',
         protocol: `https`,
         hostingWPCOM: true,
-        useACF: false
-      }
+        useACF: false,
+      },
     },
     {
       resolve: 'gatsby-plugin-firebase',
@@ -60,12 +60,12 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-source-youtube`,
+      resolve: `gatsby-source-youtube-v2`,
       options: {
         channelId: 'UCSc6ebNSxRFrbenT97g6u4Q',
         apiKey: process.env.YT_API_KEY,
-        maxVideos: 50
-      }
-    }
+        maxVideos: 50,
+      },
+    },
   ],
 }

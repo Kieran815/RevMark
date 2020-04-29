@@ -4,7 +4,6 @@ import Layout from '../components/Layout'
 
 export default ({ data }) => {
   const post = data.wordpressPost
-  console.log(post)
   return (
     <Layout>
       <div id="main">
