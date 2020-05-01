@@ -174,7 +174,7 @@ class HomeIndex extends React.Component {
                   allowFullScreen
                 ></iframe>
                 <a
-                  href="https://revmmm.files.wordpress.com/2020/05/5-3-bulletin.pdf"
+                  href="https://revmmm.files.wordpress.com/2020/05/may-3-bulletin.pdf"
                   className="button"
                   target="_blank"
                   rel="noopener noreferrer"
