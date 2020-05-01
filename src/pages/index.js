@@ -129,7 +129,11 @@ class HomeIndex extends React.Component {
             </p>
             <div
               className="actions"
-              style={{ display: 'flex', justifyContent: 'space-around' }}
+              style={{
+                display: 'flex',
+                flexWrap: 'wrap',
+                justifyContent: 'space-around',
+              }}
             >
               <a href="/blog-posts" className="button">
                 Messages
@@ -158,6 +162,31 @@ class HomeIndex extends React.Component {
                 marginBottom: '1em',
               }}
             >
+              <section>
+                <iframe
+                  className="yt_videos"
+                  title="Sermon 2020/05/03"
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/MNPsqv3rXHs"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+                <a
+                  href="https://revmmm.files.wordpress.com/2020/05/5-3-bulletin.pdf"
+                  className="button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    marginBottom: '0.5em',
+                    display: 'flex',
+                    justifyContent: 'center',
+                  }}
+                >
+                  Bulletin: Sunday, May 3rd
+                </a>
+              </section>
               <section>
                 <iframe
                   className="yt_videos"

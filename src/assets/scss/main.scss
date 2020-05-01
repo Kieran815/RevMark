@@ -79,7 +79,7 @@ a {
       'border-color #{_duration(transition)} ease-in-out'
     )
   );
-  color: "blue";
+  color: 'blue';
   text-decoration: none;
 
   &:hover {
@@ -1375,7 +1375,7 @@ body.is-touch {
   #main {
     margin: 0;
     padding: ($size-header-pad * 1.5) $size-header-pad;
-    width: 100%;
+    width: 100vw;
   }
 }
 
