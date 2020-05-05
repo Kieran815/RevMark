@@ -8,6 +8,9 @@ export default ({ data }) => {
   return (
     <Layout>
       <div id="main">
+        <header className="major">
+          <h1>Bible Stories for Kids</h1>
+        </header>
         {videos.map(video => (
           <section key={video.node.id}>
             <h2>{video.node.title}</h2>
@@ -31,14 +34,16 @@ export default ({ data }) => {
 
 export const query = graphql`
   query {
-    allYoutubeVideo {
+    allYoutubeVideo(
+      sort: { fields: publishedAt, order: DESC }
+      filter: { id: { nin: "ad861fc1-f1a3-52fa-b715-bdee0daffadd" } }
+    ) {
       edges {
         node {
           id
           title
           description
           videoId
-          publishedAt
         }
       }
     }
