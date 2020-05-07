@@ -2,7 +2,7 @@ import React from 'react'
 import '../assets/scss/main.scss'
 
 import Header from './Header'
-import Helmet from 'react-helmet';
+import { Helmet } from 'react-helmet';
 
 class Template extends React.Component {
   render() {

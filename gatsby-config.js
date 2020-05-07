@@ -56,6 +56,7 @@ module.exports = {
           storageBucket: process.env.GFB_STORAGE_BUCKET,
           messagingSenderId: process.env.GFB_MSG_SENDER_ID,
           appId: process.env.GFB_APP_ID,
+          measurementId: process.env.GFB_MEASUREMENT_ID
         },
       },
     },
