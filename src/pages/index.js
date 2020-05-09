@@ -2,7 +2,6 @@ import React from 'react'
 import Layout from '../components/Layout.js'
 import Tag from '../components/Tag.js'
 import Gallery from '../components/Gallery'
-import { church } from '@fortawesome/free-solid-svg-icons'
 
 import thumb01 from '../assets/images/thumbs/InTheGarden.jpg'
 import thumb02 from '../assets/images/thumbs/GoodShepherd.jpg'
@@ -132,14 +131,18 @@ class HomeIndex extends React.Component {
               style={{
                 display: 'flex',
                 flexWrap: 'wrap',
-                justifyContent: 'space-around',
+                justifyContent: 'space-between',
+
               }}
             >
+            <a href="/sermons" className="button">
+              Sermons
+            </a>
               <a href="/blog-posts" className="button">
                 Messages
               </a>
               <a href="/bible_stories" className="button">
-                Messages for Kids
+                Bible Stories
               </a>
               <a
                 href="https://stpetersfrankfort.org/the-key"
@@ -147,13 +150,13 @@ class HomeIndex extends React.Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                St. Peter's The Key
+                The Key
               </a>
             </div>
           </section>
 
           <section id="two">
-            <h2>Sermons and Video Messages</h2>
+            <h2>Featured Sermons and Messages</h2>
             <div
               style={{
                 display: 'flex',
@@ -163,6 +166,7 @@ class HomeIndex extends React.Component {
               }}
             >
               <section>
+                <h2>This Week's Sermon</h2>
                 <iframe
                   className="yt_videos"
                   title="Sermon 2020/05/10: Mother's Day"
@@ -187,165 +191,19 @@ class HomeIndex extends React.Component {
                   Bulletin: Sunday, May 10th
                 </a>
               </section>
+              <br/>
               <section>
+                <h2>This Week's Bible Story</h2>
                 <iframe
                   className="yt_videos"
-                  title="Sermon 2020/05/03"
+                  title="Weekly Bible Stories for Kids"
                   width="560"
                   height="315"
-                  src="https://www.youtube.com/embed/MNPsqv3rXHs"
+                  src="https://www.youtube.com/embed/3zQJA2ns9KA"
                   frameBorder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 ></iframe>
-                <a
-                  href="https://revmmm.files.wordpress.com/2020/05/may-3-bulletin.pdf"
-                  className="button"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{
-                    marginBottom: '0.5em',
-                    display: 'flex',
-                    justifyContent: 'center',
-                  }}
-                >
-                  Bulletin: Sunday, May 3rd
-                </a>
-              </section>
-              <section>
-                <iframe
-                  className="yt_videos"
-                  title="Sermon 2020/04/26"
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/MZWoMzb9Cng"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
-                <a
-                  href="https://revmmm.files.wordpress.com/2020/04/4-26-2020-bulletin.pdf"
-                  className="button"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{
-                    marginBottom: '0.5em',
-                    display: 'flex',
-                    justifyContent: 'center',
-                  }}
-                >
-                  Bulletin: Sunday, April 26th
-                </a>
-              </section>
-              <section>
-                <iframe
-                  className="yt_videos"
-                  title="Sermon 2020/04/19"
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/Xob1bn_I32Q"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
-                <a
-                  href="https://revmmm.files.wordpress.com/2020/04/4-19-2020-bulletin.pdf"
-                  className="button"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{
-                    marginBottom: '0.5em',
-                    display: 'flex',
-                    justifyContent: 'center',
-                  }}
-                >
-                  Bulletin: Sunday, April 19th
-                </a>
-              </section>
-              <section>
-                <iframe
-                  className="yt_videos"
-                  title="Easter Sunday 2020/04/12"
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/0GJY29rGKsc"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
-              </section>
-              <section>
-                <iframe
-                  className="yt_videos"
-                  title="Good Friday 2020/04/10"
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/9nJQbXn8fow"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
-              </section>
-              <section>
-                <iframe
-                  className="yt_videos"
-                  title="Maundy Thursday 2020/04/09"
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/iSwkKyEu5cc"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
-              </section>
-              <section>
-                <iframe
-                  className="yt_videos"
-                  title="Palm Sunday 2020/04/05"
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/eWJzbNBIKI8"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
-                <a
-                  href="/blog-posts/holy-week-bulletins/"
-                  className="button"
-                  style={{
-                    borderColor: 'purple',
-                    textColor: 'purple',
-                    marginBottom: '0.5em',
-                    display: 'flex',
-                    justifyContent: 'center',
-                  }}
-                >
-                  Bulletins: Holy Week 2020
-                </a>
-              </section>
-              <section>
-                <iframe
-                  className="yt_videos"
-                  title="Sermon, 2020/03/29"
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/fmY6QfOCbHk"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
-              </section>
-              <section>
-                <iframe
-                  className="yt_videos"
-                  title="Intro Video"
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/B7r-ORVKg0M"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                />
               </section>
             </div>
             {/* End of YouTube Videos */}
@@ -366,16 +224,17 @@ class HomeIndex extends React.Component {
                 Subscribe to my YouTube Channel
               </a>
             </div>
-            <Gallery
-              images={DEFAULT_IMAGES.map(
-                ({ id, source, thumbnail, caption, description }) => ({
-                  source,
-                  thumbnail,
-                  caption,
-                  description,
-                })
-              )}
-            />
+            <div>
+                <Gallery
+                  images={DEFAULT_IMAGES.map(
+                    ({ source, thumbnail, caption }) => ({
+                      source,
+                      thumbnail,
+                      caption
+                    })
+                  )}
+                />
+            </div>
           </section>
 
           <section id="three">

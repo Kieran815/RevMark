@@ -3,8 +3,8 @@ import React, { Component } from 'react'
 import Carousel, { Modal, ModalGateway } from 'react-images'
 
 class Gallery extends Component {
-  constructor() {
-    super()
+  constructor(props) {
+    super(props)
 
     this.state = {
       lightboxIsOpen: false,
