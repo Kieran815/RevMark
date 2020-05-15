@@ -87,9 +87,9 @@ a {
     color: _palette(accent1, bg) !important;
     text-decoration: none;
   }
-}
-a:visited {
-  color: 'green' !important;
+  &:visited {
+    color: ''
+  }
 }
 
 strong,

@@ -126,10 +126,16 @@ class HomeIndex extends React.Component {
               <br />
               Frankfort, Il
             </p>
-            <img
-              src="https://revmmm.files.wordpress.com/2020/05/wordart.jpeg"
-              alt="WordCloud Art - Heart"
-            />
+            <div className="HeartContainer" style={{ display: "flex", justifyContent: "center"}} >
+              <img
+                src="https://revmmm.files.wordpress.com/2020/05/wordart.jpeg"
+                alt="WordCloud Art - Heart"
+                style={{
+                  maxWidth: "80%",
+                  maxHeight: "auto",
+                }}
+              />
+            </div>
             <div
               className="actions"
               style={{
