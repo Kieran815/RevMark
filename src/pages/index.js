@@ -126,6 +126,10 @@ class HomeIndex extends React.Component {
               <br />
               Frankfort, Il
             </p>
+            <img
+              src="https://revmmm.files.wordpress.com/2020/05/wordart.jpeg"
+              alt="WordCloud Art - Heart"
+            />
             <div
               className="actions"
               style={{
@@ -154,7 +158,6 @@ class HomeIndex extends React.Component {
               </a>
             </div>
           </section>
-
           <section id="two">
             <h2>Featured Sermons and Messages</h2>
             <div
@@ -169,16 +172,16 @@ class HomeIndex extends React.Component {
                 <h2>This Week's Sermon</h2>
                 <iframe
                   className="yt_videos"
-                  title="Sermon 2020/05/10: Mother's Day"
+                  title="Sermon 2020/05/17"
                   width="560"
                   height="315"
-                  src="https://www.youtube.com/embed/W55Z843LmDk"
+                  src="https://www.youtube.com/embed/uIvxO42EPp8"
                   frameBorder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 ></iframe>
                 <a
-                  href="https://revmmm.files.wordpress.com/2020/05/5-10-bulletin.pdf"
+                  href="https://revmmm.files.wordpress.com/2020/05/5-17-bulletin.pdf"
                   className="button"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -188,7 +191,7 @@ class HomeIndex extends React.Component {
                     justifyContent: 'center',
                   }}
                 >
-                  Bulletin: Sunday, May 10th
+                  Bulletin: Sunday, May 17th
                 </a>
               </section>
               <br/>
@@ -199,7 +202,7 @@ class HomeIndex extends React.Component {
                   title="Weekly Bible Stories for Kids"
                   width="560"
                   height="315"
-                  src="https://www.youtube.com/embed/3zQJA2ns9KA"
+                  src="https://www.youtube.com/embed/I-ffLu1Rmwg"
                   frameBorder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen

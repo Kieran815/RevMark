@@ -10,7 +10,6 @@ export default ({ data }) => {
         <section id="messageHead">
           <header
             className="major"
-            style={{ display: 'flex', justifyContent: 'center' }}
           >
             <h1>Messages from Rev. Mark</h1>
           </header>

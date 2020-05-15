@@ -88,6 +88,9 @@ a {
     text-decoration: none;
   }
 }
+a:visited {
+  color: 'green' !important;
+}
 
 strong,
 b {

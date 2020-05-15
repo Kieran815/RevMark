@@ -12,14 +12,14 @@ export default ({ data }) => {
           <h1>Bible Stories for Kids</h1>
         </header>
         {videos.map(video => (
-          <section key={video.node.id}>
+          <section style={{ display: "flex", flexDirection: "column", alignItems: "center" }} key={video.node.id}>
             <h2>{video.node.title}</h2>
             <iframe
               className="yt_videos"
               title={video.node.title}
               width="560"
               height="315"
-              src={'https://www.youtube.com/embed/' + `${video.node.videoId}`}
+              src={`https://www.youtube.com/embed/${video.node.videoId}`}
               frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen

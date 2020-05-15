@@ -17,8 +17,8 @@ module.exports = {
         name: 'Rev Mark M Milligan',
         short_name: 'Rev Mark M Milligan',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
+        background_color: 'blue',
+        theme_color: 'blue',
         display: 'minimal-ui',
         icon: 'src/assets/images/Rooster.jpg', // This path is relative to the root of the site.
       },
