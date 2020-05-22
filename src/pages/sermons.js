@@ -21,6 +21,31 @@ const Sermons = () => (
         <section>
           <iframe
             className="yt_videos"
+            title="Sermon 2020/05/24"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/ucxSvcpJOXc"
+            frameBorder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+          <a
+            href="https://revmmm.files.wordpress.com/2020/05/may-24-bulletin.pdf"
+            className="button"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              marginBottom: '0.5em',
+              display: 'flex',
+              justifyContent: 'center',
+            }}
+          >
+            Bulletin: Sunday, May 24th
+          </a>
+        </section>
+        <section>
+          <iframe
+            className="yt_videos"
             title="Sermon 2020/05/17"
             width="560"
             height="315"

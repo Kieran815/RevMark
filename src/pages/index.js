@@ -178,16 +178,16 @@ class HomeIndex extends React.Component {
                 <h2>This Week's Sermon</h2>
                 <iframe
                   className="yt_videos"
-                  title="Sermon 2020/05/17"
+                  title="Sermon 2020/05/24"
                   width="560"
                   height="315"
-                  src="https://www.youtube.com/embed/uIvxO42EPp8"
+                  src="https://www.youtube.com/embed/ucxSvcpJOXc"
                   frameBorder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 ></iframe>
                 <a
-                  href="https://revmmm.files.wordpress.com/2020/05/5-17-bulletin.pdf"
+                  href="https://revmmm.files.wordpress.com/2020/05/may-24-bulletin.pdf"
                   className="button"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -197,7 +197,7 @@ class HomeIndex extends React.Component {
                     justifyContent: 'center',
                   }}
                 >
-                  Bulletin: Sunday, May 17th
+                  Bulletin: Sunday, May 24th
                 </a>
               </section>
               <br/>
@@ -208,7 +208,7 @@ class HomeIndex extends React.Component {
                   title="Weekly Bible Stories for Kids"
                   width="560"
                   height="315"
-                  src="https://www.youtube.com/embed/I-ffLu1Rmwg"
+                  src="https://www.youtube.com/embed/ypIv2UD0bxM"
                   frameBorder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
