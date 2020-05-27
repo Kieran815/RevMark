@@ -141,13 +141,13 @@ class HomeIndex extends React.Component {
               style={{
                 display: 'flex',
                 flexWrap: 'wrap',
-                justifyContent: 'space-between',
-
+                justifyContent: 'center',
+                margin: "0.5em",
               }}
             >
-            <a href="/sermons" className="button">
-              Sermons
-            </a>
+              <a href="/sermons" className="button">
+                Sermons
+              </a>
               <a href="/blog-posts" className="button">
                 Messages
               </a>
