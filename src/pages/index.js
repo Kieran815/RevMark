@@ -141,8 +141,7 @@ class HomeIndex extends React.Component {
               style={{
                 display: 'flex',
                 flexWrap: 'wrap',
-                justifyContent: 'center',
-                margin: "0.5em",
+                justifyContent: 'center'
               }}
             >
               <a href="/sermons" className="button">
@@ -181,13 +180,13 @@ class HomeIndex extends React.Component {
                   title="Sermon 2020/05/24"
                   width="560"
                   height="315"
-                  src="https://www.youtube.com/embed/ucxSvcpJOXc"
+                  src="https://www.youtube.com/embed/aMJejxMjwPE"
                   frameBorder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 ></iframe>
                 <a
-                  href="https://revmmm.files.wordpress.com/2020/05/may-24-bulletin.pdf"
+                  href="https://revmmm.files.wordpress.com/2020/05/may-31-bulletin.pdf"
                   className="button"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -197,7 +196,7 @@ class HomeIndex extends React.Component {
                     justifyContent: 'center',
                   }}
                 >
-                  Bulletin: Sunday, May 24th
+                  Bulletin: Sunday, May 31st
                 </a>
               </section>
               <br/>
