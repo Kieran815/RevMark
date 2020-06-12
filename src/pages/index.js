@@ -177,16 +177,16 @@ class HomeIndex extends React.Component {
                 <h2>This Week's Sermon</h2>
                 <iframe
                   className="yt_videos"
-                  title="Sermon 2020/06/07"
+                  title="Sermon 2020/06/14"
                   width="560"
                   height="315"
-                  src="https://www.youtube.com/embed/u2c-lztikCc"
+                  src="https://www.youtube.com/embed/scPYq68WV9o"
                   frameBorder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 ></iframe>
                 <a
-                  href="https://revmmm.files.wordpress.com/2020/06/june-7-2020-bulletin.pdf"
+                  href="https://revmmm.files.wordpress.com/2020/06/june-14-bulletin.pdf"
                   className="button"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -196,7 +196,7 @@ class HomeIndex extends React.Component {
                     justifyContent: 'center',
                   }}
                 >
-                  Bulletin: Sunday, June 7th
+                  Bulletin: Sunday, June 14th
                 </a>
               </section>
               <br/>
@@ -207,7 +207,7 @@ class HomeIndex extends React.Component {
                   title="Weekly Bible Stories for Kids"
                   width="560"
                   height="315"
-                  src="https://www.youtube.com/embed/yzJr3ThgpWE"
+                  src="https://www.youtube.com/embed/99KcnmKe1Uk"
                   frameBorder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
@@ -266,13 +266,13 @@ class HomeIndex extends React.Component {
                   <h3 className="icon fa-home">
                     <span className="label">home</span>
                   </h3>
-                  <p>
+                  <a href="https://www.google.com/maps/place/12+W+Sauk+Trail,+Frankfort,+IL+60423/@41.4955441,-87.8517159,17z/data=!3m1!4b1!4m5!3m4!1s0x880e13514f89b35f:0x8c248de2d21f98fd!8m2!3d41.4955401!4d-87.8495272">
                     12 West Sauk Trail
                     <br />
                     Frankfort, Il 60423
                     <br />
                     United States
-                  </p>
+                  </a>
                 </div>
                 <div style={{ display: 'flex' }}>
                   <h3 className="icon fa-mobile">
