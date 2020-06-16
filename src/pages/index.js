@@ -207,11 +207,11 @@ class HomeIndex extends React.Component {
                   title="Weekly Bible Stories for Kids"
                   width="560"
                   height="315"
-                  src="https://www.youtube.com/embed/99KcnmKe1Uk"
+                  src="https://www.youtube.com/embed/L7q-61Dlwf8"
                   frameBorder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
-                ></iframe>
+                ></iframe>                
               </section>
             </div>
             {/* End of YouTube Videos */}
