@@ -1,4 +1,5 @@
 import React from 'react'
+import { graphql, StaticQuery } from "gatsby";
 import Layout from '../components/Layout.js'
 import Tag from '../components/Tag.js'
 import Gallery from '../components/Gallery'
@@ -174,45 +175,79 @@ class HomeIndex extends React.Component {
               }}
             >
               <section>
-                <h2>This Week's Sermon</h2>
+                <h3 style={{ display: "flex", justifyContent: "flex-start" }}>This Week's Sermon</h3>
                 <iframe
                   className="yt_videos"
-                  title="Sermon 2020/06/14"
+                  title="Sermon 2020/06/21 part 1"
                   width="560"
                   height="315"
-                  src="https://www.youtube.com/embed/scPYq68WV9o"
+                  src="https://www.youtube.com/embed/40nTU-gfYic"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+                <br />
+                <iframe
+                  className="yt_videos"
+                  title="Sermon 2020/06/21 part 2"
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/s8_7mb3vvmI"
                   frameBorder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 ></iframe>
                 <a
-                  href="https://revmmm.files.wordpress.com/2020/06/june-14-bulletin.pdf"
+                  href="https://revmmm.files.wordpress.com/2020/06/june-21-bulletin.pdf"
                   className="button"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{
                     marginBottom: '0.5em',
                     display: 'flex',
-                    justifyContent: 'center',
+                    justifyContent: 'center'
                   }}
                 >
-                  Bulletin: Sunday, June 14th
+                  Bulletin: Sunday, June 21st
                 </a>
               </section>
               <br/>
-              <section>
-                <h2>This Week's Bible Story</h2>
-                <iframe
-                  className="yt_videos"
-                  title="Weekly Bible Stories for Kids"
-                  width="560"
-                  height="315"
-                  src="https://www.youtube.com/embed/L7q-61Dlwf8"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>                
-              </section>
+              <StaticQuery
+                query={graphql`
+                  query MyQuery {
+                    youtubeVideo {
+                      id
+                      title
+                      videoId
+                      description
+                    }
+                  }
+                `}
+                render={data => (
+                  <div
+                    style={{
+                      display: 'flex',
+                      flexDirection: 'column',
+                      alignItems: 'center',
+                      marginBottom: '1em',
+                    }}
+                  >
+                    <section>
+                      <h3 style={{ display: "flex", justifyContent: "flex-start" }}>This Week's Bible Story</h3>
+                      <iframe
+                        className="yt_videos"
+                        title={data.youtubeVideo.title}
+                        width="560"
+                        height="315"
+                        src={`https://www.youtube.com/embed/${data.youtubeVideo.videoId}`}
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                      ></iframe>
+                    </section>
+                  </div>
+                )}
+              />
             </div>
             {/* End of YouTube Videos */}
             <div
