@@ -24,18 +24,7 @@ const Sermons = () => (
               title="Sermon 2020/06/21 part 1"
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/40nTU-gfYic"
-              frameBorder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-            <br />
-            <iframe
-              className="yt_videos"
-              title="Sermon 2020/06/21 part 2"
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/s8_7mb3vvmI"
+              src="https://www.youtube.com/embed/D5QiXA0aVyo"
               frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
