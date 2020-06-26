@@ -14,6 +14,8 @@ import full02 from '../assets/images/fulls/GoodShepherd.jpg'
 import full03 from '../assets/images/fulls/Praying.jpg'
 import full04 from '../assets/images/fulls/WalkingOnWater.jpg'
 
+//https://revmmm.files.wordpress.com/2020/06/6-28-bulletin.pdf
+
 const DEFAULT_IMAGES = [
   {
     id: '1',
@@ -178,16 +180,16 @@ class HomeIndex extends React.Component {
                 <h3 style={{ display: "flex", justifyContent: "flex-start" }}>This Week's Sermon</h3>
                 <iframe
                   className="yt_videos"
-                  title="Sermon 2020/06/21 part 1"
+                  title="Sermon 2020/06/28"
                   width="560"
                   height="315"
-                  src="https://www.youtube.com/embed/D5QiXA0aVyo"
+                  src="https://www.youtube.com/embed/_mNlB8IlPDA"
                   frameBorder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 ></iframe>
                 <a
-                  href="https://revmmm.files.wordpress.com/2020/06/june-21-bulletin.pdf"
+                  href="https://revmmm.files.wordpress.com/2020/06/6-28-bulletin.pdf"
                   className="button"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -197,7 +199,7 @@ class HomeIndex extends React.Component {
                     justifyContent: 'center'
                   }}
                 >
-                  Bulletin: Sunday, June 21st
+                  Bulletin: Sunday, June 28th
                 </a>
               </section>
               <br/>

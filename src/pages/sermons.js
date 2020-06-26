@@ -1,5 +1,5 @@
-import React from 'react'
-import Layout from '../components/Layout'
+import React from 'react';
+import Layout from '../components/Layout';
 
 const Sermons = () => (
   <Layout>
@@ -18,6 +18,31 @@ const Sermons = () => (
             marginBottom: '1em',
           }}
         >
+            <section>
+              <iframe
+                className="yt_videos"
+                title="Sermon 2020/06/28"
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/_mNlB8IlPDA"
+                frameBorder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+              <a
+                href="https://revmmm.files.wordpress.com/2020/06/6-28-bulletin.pdf"
+                className="button"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  marginBottom: '0.5em',
+                  display: 'flex',
+                  justifyContent: 'center'
+                }}
+              >
+                Bulletin: Sunday, June 28th
+              </a>
+            </section>
           <section>
             <iframe
               className="yt_videos"
