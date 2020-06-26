@@ -1,20 +1,18 @@
-import React from 'react'
+import React from 'react';
 import { graphql, StaticQuery } from "gatsby";
-import Layout from '../components/Layout.js'
-import Tag from '../components/Tag.js'
-import Gallery from '../components/Gallery'
+import Layout from '../components/Layout.js';
+import Tag from '../components/Tag.js';
+import Gallery from '../components/Gallery';
 
-import thumb01 from '../assets/images/thumbs/InTheGarden.jpg'
-import thumb02 from '../assets/images/thumbs/GoodShepherd.jpg'
-import thumb03 from '../assets/images/thumbs/Praying.jpg'
-import thumb04 from '../assets/images/thumbs/WalkingOnWater.jpg'
+import thumb01 from '../assets/images/thumbs/InTheGarden.jpg';
+import thumb02 from '../assets/images/thumbs/GoodShepherd.jpg';
+import thumb03 from '../assets/images/thumbs/Praying.jpg';
+import thumb04 from '../assets/images/thumbs/WalkingOnWater.jpg';
 
-import full01 from '../assets/images/fulls/InTheGarden.jpg'
-import full02 from '../assets/images/fulls/GoodShepherd.jpg'
-import full03 from '../assets/images/fulls/Praying.jpg'
-import full04 from '../assets/images/fulls/WalkingOnWater.jpg'
-
-//https://revmmm.files.wordpress.com/2020/06/6-28-bulletin.pdf
+import full01 from '../assets/images/fulls/InTheGarden.jpg';
+import full02 from '../assets/images/fulls/GoodShepherd.jpg';
+import full03 from '../assets/images/fulls/Praying.jpg';
+import full04 from '../assets/images/fulls/WalkingOnWater.jpg';
 
 const DEFAULT_IMAGES = [
   {

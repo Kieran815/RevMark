@@ -8,8 +8,16 @@ export default ({ data }) => {
   return (
     <Layout>
       <div id="main">
-        <header className="major">
+        <header className="major" style ={{display: 'flex', justifyContent: 'space-between' }}>
           <h1>Bible Stories for Kids</h1>
+          <a
+            href="https://www.youtube.com/channel/UCSc6ebNSxRFrbenT97g6u4Q"
+            className="icon fa-youtube icon-4x"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="label">Youtube</span> Subscribe
+          </a>
         </header>
         {videos.map(video => (
           <section style={{ display: "flex", flexDirection: "column", alignItems: "center" }} key={video.node.id}>
