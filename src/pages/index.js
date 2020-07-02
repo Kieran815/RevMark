@@ -164,6 +164,7 @@ class HomeIndex extends React.Component {
               </a>
             </div>
           </section>
+{/* Start of YouTube Videos */}
           <section id="two">
             <h2>Featured Sermons and Messages</h2>
             <div
@@ -178,16 +179,16 @@ class HomeIndex extends React.Component {
                 <h3 style={{ display: "flex", justifyContent: "flex-start" }}>This Week's Sermon</h3>
                 <iframe
                   className="yt_videos"
-                  title="Sermon 2020/06/28"
+                  title="Sermon 2020/07/05"
                   width="560"
                   height="315"
-                  src="https://www.youtube.com/embed/_mNlB8IlPDA"
+                  src="https://www.youtube.com/embed/Ia_Mh1bE608"
                   frameBorder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 ></iframe>
                 <a
-                  href="https://revmmm.files.wordpress.com/2020/06/6-28-bulletin.pdf"
+                  href="https://revmmm.files.wordpress.com/2020/07/7-5-bulletin.pdf"
                   className="button"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -197,7 +198,7 @@ class HomeIndex extends React.Component {
                     justifyContent: 'center'
                   }}
                 >
-                  Bulletin: Sunday, June 28th
+                  Bulletin: Sunday, July 5th
                 </a>
               </section>
               <br/>
@@ -238,7 +239,7 @@ class HomeIndex extends React.Component {
                 )}
               />
             </div>
-            {/* End of YouTube Videos */}
+{/* End of YouTube Videos */}
             <div
               className="actions"
               style={{
