@@ -182,13 +182,13 @@ class HomeIndex extends React.Component {
                   title="Sermon 2020/07/05"
                   width="560"
                   height="315"
-                  src="https://www.youtube.com/embed/WFWTVrcOx4g"
+                  src="https://www.youtube.com/embed/Ma6lOmIp5ek"
                   frameBorder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 ></iframe>
                 <a
-                  href="https://revmmm.files.wordpress.com/2020/07/july-12-bulletin.pdf"
+                  href="https://revmmm.files.wordpress.com/2020/07/7-19-bulletin.pdf"
                   className="button"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -198,7 +198,7 @@ class HomeIndex extends React.Component {
                     justifyContent: 'center'
                   }}
                 >
-                  Bulletin: Sunday, July 12th
+                  Bulletin: Sunday, July 19th
                 </a>
               </section>
               <br/>
