@@ -12,11 +12,11 @@ export default ({ data }) => {
           <h1>Bible Stories for Kids</h1>
           <a
             href="https://www.youtube.com/channel/UCSc6ebNSxRFrbenT97g6u4Q"
-            className="icon fa-youtube icon-4x"
+            className="button"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <span className="label">Youtube</span> Subscribe
+            <span className="icon fa-youtube icon-5x"> Subscribe</span> 
           </a>
         </header>
         {videos.map(video => (
