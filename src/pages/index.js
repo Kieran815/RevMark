@@ -1,7 +1,6 @@
 import React from 'react'
 import Layout from '../components/Layout.js'
 import Tag from '../components/Tag.js'
-import Gallery from '../components/Gallery'
 import Intro from '../components/Intro'
 import CurrentSermons from '../components/CurrentSermons'
 
