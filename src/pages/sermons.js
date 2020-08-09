@@ -88,7 +88,7 @@ const Sermons = () => (
           <section>
             <iframe
               className="yt_videos"
-              title="Sermon 2020/07/19"
+              title="Sermon 2020/07/26"
               width="560"
               height="315"
               src="https://www.youtube.com/embed/9hMII5L5Juk"
