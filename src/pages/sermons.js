@@ -19,7 +19,33 @@ const Sermons = () => (
           }}
         >
           <h2 id='august'>August 2020</h2>
-
+          <section>
+            <iframe
+              className="yt_videos"
+              title="Sermon 2020/08/23"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/DRvkgr5jKDw"
+              frameBorder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+            <a
+              href="https://revmmm.files.wordpress.com/2020/08/8-23-bulletin.pdf"
+              className="button"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                marginBottom: '0.5em',
+                display: 'flex',
+                justifyContent: 'center'
+              }}
+            >
+              Bulletin: Sunday, August 23rd
+            </a>
+          </section>
+          <br/>
+          <br/>
           <section>
             <iframe
               className="yt_videos"
@@ -45,7 +71,8 @@ const Sermons = () => (
               Bulletin: Sunday, August 16th
             </a>
           </section>
-
+          <br/>
+          <br/>
           <section>
             <iframe
               className="yt_videos"
