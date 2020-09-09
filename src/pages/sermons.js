@@ -1,12 +1,10 @@
-import React from 'react';
-import Layout from '../components/Layout';
+import React from 'react'
+import Layout from '../components/Layout'
 
 const Sermons = () => (
   <Layout>
     <div id="main">
-      <header
-        className="major"
-        >
+      <header className="major">
         <h1>Sermons</h1>
       </header>
       <section id="two">
@@ -18,7 +16,44 @@ const Sermons = () => (
             marginBottom: '1em',
           }}
         >
-          <h2 id='august'>August 2020</h2>
+          <h2 id="august">September 2020</h2>
+          <section>
+            <iframe
+              className="yt_videos"
+              title="Sermon 2020/09/06"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/OLNzV77kDe0"
+              frameBorder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+            <a
+              href="https://revmmm.files.wordpress.com/2020/09/9-6-bulletin.pdf"
+              className="button"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                marginBottom: '0.5em',
+                display: 'flex',
+                justifyContent: 'center',
+              }}
+            >
+              Bulletin: Sunday, September 6th
+            </a>
+          </section>
+        </div>
+      </section>
+      <section id="two">
+        <div
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            marginBottom: '1em',
+          }}
+        >
+          <h2 id="august">August 2020</h2>
           <section>
             <iframe
               className="yt_videos"
@@ -38,14 +73,14 @@ const Sermons = () => (
               style={{
                 marginBottom: '0.5em',
                 display: 'flex',
-                justifyContent: 'center'
+                justifyContent: 'center',
               }}
             >
               Bulletin: Sunday, August 30th
             </a>
           </section>
-          <br/>
-          <br/>
+          <br />
+          <br />
           <section>
             <iframe
               className="yt_videos"
@@ -65,14 +100,14 @@ const Sermons = () => (
               style={{
                 marginBottom: '0.5em',
                 display: 'flex',
-                justifyContent: 'center'
+                justifyContent: 'center',
               }}
             >
               Bulletin: Sunday, August 23rd
             </a>
           </section>
-          <br/>
-          <br/>
+          <br />
+          <br />
           <section>
             <iframe
               className="yt_videos"
@@ -92,14 +127,14 @@ const Sermons = () => (
               style={{
                 marginBottom: '0.5em',
                 display: 'flex',
-                justifyContent: 'center'
+                justifyContent: 'center',
               }}
             >
               Bulletin: Sunday, August 16th
             </a>
           </section>
-          <br/>
-          <br/>
+          <br />
+          <br />
           <section>
             <iframe
               className="yt_videos"
@@ -119,14 +154,14 @@ const Sermons = () => (
               style={{
                 marginBottom: '0.5em',
                 display: 'flex',
-                justifyContent: 'center'
+                justifyContent: 'center',
               }}
             >
               Bulletin: Sunday, August 9th
             </a>
           </section>
-          <br/>
-          <br/>
+          <br />
+          <br />
           <section>
             <iframe
               className="yt_videos"
@@ -146,13 +181,12 @@ const Sermons = () => (
               style={{
                 marginBottom: '0.5em',
                 display: 'flex',
-                justifyContent: 'center'
+                justifyContent: 'center',
               }}
             >
               Bulletin: Sunday, August 2nd
             </a>
           </section>
-
         </div>
       </section>
       <section id="two">
@@ -164,7 +198,7 @@ const Sermons = () => (
             marginBottom: '1em',
           }}
         >
-          <h2 id='july'>July 2020</h2>
+          <h2 id="july">July 2020</h2>
           <section>
             <iframe
               className="yt_videos"
@@ -184,14 +218,14 @@ const Sermons = () => (
               style={{
                 marginBottom: '0.5em',
                 display: 'flex',
-                justifyContent: 'center'
+                justifyContent: 'center',
               }}
             >
               Bulletin: Sunday, July 26th
             </a>
           </section>
-          <br/>
-          <br/>
+          <br />
+          <br />
           <section>
             <iframe
               className="yt_videos"
@@ -211,14 +245,14 @@ const Sermons = () => (
               style={{
                 marginBottom: '0.5em',
                 display: 'flex',
-                justifyContent: 'center'
+                justifyContent: 'center',
               }}
             >
               Bulletin: Sunday, July 19th
             </a>
           </section>
-          <br/>
-          <br/>
+          <br />
+          <br />
           <section>
             <iframe
               className="yt_videos"
@@ -238,14 +272,14 @@ const Sermons = () => (
               style={{
                 marginBottom: '0.5em',
                 display: 'flex',
-                justifyContent: 'center'
+                justifyContent: 'center',
               }}
             >
               Bulletin: Sunday, July 12th
             </a>
           </section>
-          <br/>
-          <br/>
+          <br />
+          <br />
           <section>
             <iframe
               className="yt_videos"
@@ -265,7 +299,7 @@ const Sermons = () => (
               style={{
                 marginBottom: '0.5em',
                 display: 'flex',
-                justifyContent: 'center'
+                justifyContent: 'center',
               }}
             >
               Bulletin: Sunday, July 5th
@@ -282,7 +316,7 @@ const Sermons = () => (
             marginBottom: '1em',
           }}
         >
-          <h2 id='june'>June 2020</h2>
+          <h2 id="june">June 2020</h2>
           <section>
             <iframe
               className="yt_videos"
@@ -302,14 +336,14 @@ const Sermons = () => (
               style={{
                 marginBottom: '0.5em',
                 display: 'flex',
-                justifyContent: 'center'
+                justifyContent: 'center',
               }}
             >
               Bulletin: Sunday, June 28th
             </a>
           </section>
-          <br/>
-          <br/>
+          <br />
+          <br />
           <section>
             <iframe
               className="yt_videos"
@@ -329,14 +363,14 @@ const Sermons = () => (
               style={{
                 marginBottom: '0.5em',
                 display: 'flex',
-                justifyContent: 'center'
+                justifyContent: 'center',
               }}
             >
               Bulletin: Sunday, June 21st
             </a>
           </section>
-          <br/>
-          <br/>
+          <br />
+          <br />
           <section>
             <iframe
               className="yt_videos"
@@ -362,8 +396,8 @@ const Sermons = () => (
               Bulletin: Sunday, June 14th
             </a>
           </section>
-          <br/>
-          <br/>
+          <br />
+          <br />
           <section>
             <iframe
               className="yt_videos"
@@ -389,7 +423,7 @@ const Sermons = () => (
               Bulletin: Sunday, June 7th
             </a>
           </section>
-          </div>
+        </div>
       </section>
       <section id="two">
         <div
@@ -400,7 +434,7 @@ const Sermons = () => (
             marginBottom: '1em',
           }}
         >
-          <h2 id='may'>May 2020</h2>
+          <h2 id="may">May 2020</h2>
           <section>
             <iframe
               className="yt_videos"
@@ -426,8 +460,8 @@ const Sermons = () => (
               Bulletin: Sunday, May 31st
             </a>
           </section>
-          <br/>
-          <br/>
+          <br />
+          <br />
           <section>
             <iframe
               className="yt_videos"
@@ -453,8 +487,8 @@ const Sermons = () => (
               Bulletin: Sunday, May 24th
             </a>
           </section>
-          <br/>
-          <br/>
+          <br />
+          <br />
           <section>
             <iframe
               className="yt_videos"
@@ -480,8 +514,8 @@ const Sermons = () => (
               Bulletin: Sunday, May 17th
             </a>
           </section>
-          <br/>
-          <br/>
+          <br />
+          <br />
           <section>
             <iframe
               className="yt_videos"
@@ -507,8 +541,8 @@ const Sermons = () => (
               Bulletin: Sunday, May 10th
             </a>
           </section>
-          <br/>
-          <br/>
+          <br />
+          <br />
           <section>
             <iframe
               className="yt_videos"
@@ -534,7 +568,7 @@ const Sermons = () => (
               Bulletin: Sunday, May 3rd
             </a>
           </section>
-          </div>
+        </div>
       </section>
       <section id="two">
         <div
@@ -545,7 +579,7 @@ const Sermons = () => (
             marginBottom: '1em',
           }}
         >
-          <h2 id='april'>April 2020</h2>
+          <h2 id="april">April 2020</h2>
           <section>
             <iframe
               className="yt_videos"
@@ -571,8 +605,8 @@ const Sermons = () => (
               Bulletin: Sunday, April 26th
             </a>
           </section>
-          <br/>
-          <br/>
+          <br />
+          <br />
           <section>
             <iframe
               className="yt_videos"
@@ -598,8 +632,8 @@ const Sermons = () => (
               Bulletin: Sunday, April 19th
             </a>
           </section>
-          <br/>
-          <br/>
+          <br />
+          <br />
           <section>
             <iframe
               className="yt_videos"
@@ -612,8 +646,8 @@ const Sermons = () => (
               allowFullScreen
             ></iframe>
           </section>
-          <br/>
-          <br/>
+          <br />
+          <br />
           <section>
             <iframe
               className="yt_videos"
@@ -626,8 +660,8 @@ const Sermons = () => (
               allowFullScreen
             ></iframe>
           </section>
-          <br/>
-          <br/>
+          <br />
+          <br />
           <section>
             <iframe
               className="yt_videos"
@@ -640,8 +674,8 @@ const Sermons = () => (
               allowFullScreen
             ></iframe>
           </section>
-          <br/>
-          <br/>
+          <br />
+          <br />
           <section>
             <iframe
               className="yt_videos"
@@ -667,7 +701,7 @@ const Sermons = () => (
               Bulletins: Holy Week 2020
             </a>
           </section>
-          </div>
+        </div>
       </section>
       <section id="two">
         <div
@@ -678,7 +712,7 @@ const Sermons = () => (
             marginBottom: '1em',
           }}
         >
-          <h2 id='march'>March 2020</h2>
+          <h2 id="march">March 2020</h2>
           <section>
             <iframe
               className="yt_videos"
@@ -715,4 +749,4 @@ const Sermons = () => (
   </Layout>
 )
 
-export default Sermons;
+export default Sermons

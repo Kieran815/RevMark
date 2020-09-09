@@ -1,5 +1,5 @@
-import React from 'react';
-import { graphql, StaticQuery } from "gatsby";
+import React from 'react'
+import { graphql, StaticQuery } from 'gatsby'
 
 class CurrentSermons extends React.Component {
   render() {
@@ -15,32 +15,34 @@ class CurrentSermons extends React.Component {
           }}
         >
           <section>
-            <h3 style={{ display: "flex", justifyContent: "flex-start" }}>This Week's Sermon</h3>
+            <h3 style={{ display: 'flex', justifyContent: 'flex-start' }}>
+              This Week's Sermon
+            </h3>
             <iframe
               className="yt_videos"
-              title="Sermon 2020/08/30"
+              title="Sermon 2020/09/06"
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/Vh3C9Vqj_OA"
+              src="https://www.youtube.com/embed/OLNzV77kDe0"
               frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
             <a
-              href="https://revmmm.files.wordpress.com/2020/08/8-30-bulletin.pdf"
+              href="https://revmmm.files.wordpress.com/2020/09/9-6-bulletin.pdf"
               className="button"
               target="_blank"
               rel="noopener noreferrer"
               style={{
                 marginBottom: '0.5em',
                 display: 'flex',
-                justifyContent: 'center'
+                justifyContent: 'center',
               }}
             >
-              Bulletin: Sunday, August 30th
+              Bulletin: Sunday, September 6th
             </a>
           </section>
-          <br/>
+          <br />
           <StaticQuery
             query={graphql`
               query MyQuery {
@@ -107,4 +109,4 @@ class CurrentSermons extends React.Component {
   }
 }
 
-export default CurrentSermons;
+export default CurrentSermons
