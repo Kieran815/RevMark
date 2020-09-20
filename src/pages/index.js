@@ -4,6 +4,8 @@ import Tag from '../components/Tag.js'
 import Intro from '../components/Intro'
 import CurrentSermons from '../components/CurrentSermons'
 
+// checking ssh
+
 class HomeIndex extends React.Component {
   render() {
     return (
