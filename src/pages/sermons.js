@@ -20,7 +20,34 @@ const Sermons = () => (
           <section>
             <iframe
               className="yt_videos"
-              title="Sermon 2020/09/13"
+              title="Sermon 2020/09/27"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/KJFjd1KPWR8"
+              frameBorder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+            <a
+              href="https://revmmm.files.wordpress.com/2020/09/9-27-bulletin.pdf"
+              className="button"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                marginBottom: '0.5em',
+                display: 'flex',
+                justifyContent: 'center',
+              }}
+            >
+              Bulletin: Sunday, September 27th
+            </a>
+          </section>
+          <br />
+          <br />
+          <section>
+            <iframe
+              className="yt_videos"
+              title="Sermon 2020/09/20"
               width="560"
               height="315"
               src="https://www.youtube.com/embed/_ZWDH8GE0qE"
