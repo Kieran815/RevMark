@@ -16,6 +16,70 @@ const Sermons = () => (
             marginBottom: '1em',
           }}
         >
+          <h2 id="august">October 2020</h2>
+          <section>
+            <iframe
+              className="yt_videos"
+              title="Sermon 2020/10/11"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/UZ5CPZGGh5A"
+              frameBorder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+            <a
+              href="https://revmmm.files.wordpress.com/2020/10/10-11-bulletin.pdf"
+              className="button"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                marginBottom: '0.5em',
+                display: 'flex',
+                justifyContent: 'center',
+              }}
+            >
+              Bulletin: Sunday, October 11th
+            </a>
+          </section>
+          <br />
+          <br />
+          <section>
+            <iframe
+              className="yt_videos"
+              title="Sermon 2020/10/04"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/G5Ky45WWc1c"
+              frameBorder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+            <a
+              href="https://revmmm.files.wordpress.com/2020/10/10-4-bulletin.pdf"
+              className="button"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                marginBottom: '0.5em',
+                display: 'flex',
+                justifyContent: 'center',
+              }}
+            >
+              Bulletin: Sunday, October 4th
+            </a>
+          </section>
+        </div>
+      </section>
+      <section id="two">
+        <div
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            marginBottom: '1em',
+          }}
+        >
           <h2 id="august">September 2020</h2>
           <section>
             <iframe

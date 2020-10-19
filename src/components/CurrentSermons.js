@@ -20,16 +20,16 @@ class CurrentSermons extends React.Component {
             </h3>
             <iframe
               className="yt_videos"
-              title="Sermon 2020/09/06"
+              title="Sermon 2020/10/11"
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/KJFjd1KPWR8"
+              src="https://www.youtube.com/embed/UZ5CPZGGh5A"
               frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
             <a
-              href="https://revmmm.files.wordpress.com/2020/09/9-27-bulletin.pdf"
+              href="https://revmmm.files.wordpress.com/2020/10/10-11-bulletin.pdf"
               className="button"
               target="_blank"
               rel="noopener noreferrer"
@@ -39,7 +39,7 @@ class CurrentSermons extends React.Component {
                 justifyContent: 'center',
               }}
             >
-              Bulletin: Sunday, September 27th
+              Bulletin: Sunday, October 11th
             </a>
           </section>
           <br />
