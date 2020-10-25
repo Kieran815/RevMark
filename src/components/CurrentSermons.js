@@ -20,16 +20,16 @@ class CurrentSermons extends React.Component {
             </h3>
             <iframe
               className="yt_videos"
-              title="Sermon 2020/10/11"
+              title="Current Week's Sermons"
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/83fcj-_RSZU"
+              src="https://www.youtube.com/embed/wQp0-uwf9eo"
               frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
             <a
-              href="https://revmmm.files.wordpress.com/2020/10/10-18-bulletin.pdf"
+              href="https://revmmm.files.wordpress.com/2020/10/10-25-bulletin.pdf"
               className="button"
               target="_blank"
               rel="noopener noreferrer"
@@ -39,7 +39,7 @@ class CurrentSermons extends React.Component {
                 justifyContent: 'center',
               }}
             >
-              Bulletin: Sunday, October 18th
+              Bulletin: Sunday, October 25th
             </a>
           </section>
           <br />
