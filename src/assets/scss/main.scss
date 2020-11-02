@@ -49,7 +49,7 @@ body {
   width: 100vw;
   max-width: 100vw;
   background: _palette(bg);
-
+  color: #DCDCDC;
   &.is-loading {
     *,
     *:before,
@@ -64,7 +64,7 @@ body,
 input,
 select,
 textarea {
-  color: 'black';
+  color: #000;
   font-family: _font(family);
   font-size: 16pt;
   font-weight: _font(weight);
