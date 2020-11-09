@@ -9,7 +9,7 @@ yarn.lock
 .env.production
 # Build directory
 /public
-.DS_Store
+.DS_Storegatsby de
 .env
 .env.development
 .env.production
