@@ -23,6 +23,33 @@ const Sermons = () => (
               title="Sermon 2020/11/22"
               width="560"
               height="315"
+              src="https://www.youtube.com/embed/dIrTkX6082A"
+              frameBorder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+            <a
+              href="https://revmmm.files.wordpress.com/2020/11/11-29-bulletin-1.pdf"
+              className="button"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                marginBottom: '0.5em',
+                display: 'flex',
+                justifyContent: 'center',
+              }}
+            >
+              Bulletin: Sunday, November 29th
+            </a>
+          </section>
+          <br />
+          <br />
+          <section>
+            <iframe
+              className="yt_videos"
+              title="Sermon 2020/11/22"
+              width="560"
+              height="315"
               src="https://www.youtube.com/embed/7ApFTbpJzaQ"
               frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
