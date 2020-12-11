@@ -18,32 +18,18 @@ class CurrentSermons extends React.Component {
             <h3 style={{ display: 'flex', justifyContent: 'flex-start' }}>
               This Week's Sermon
             </h3>
-            <div style={{"display": "flex", "flexDirection": "column"}}>
-              <iframe
-                className="yt_videos"
-                title="Current Week's Sermons"
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/7GwFpdQsyWQ"
-                frameBorder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
-              <p>Part I</p>
-              <iframe
-                className="yt_videos"
-                title="Current Week's Sermons"
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/sGidqHr3mx4"
-                frameBorder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
-              <p>Part II</p>
-            </div>
+            <iframe
+              className="yt_videos"
+              title="Current Week's Sermons"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/-BzkFDvqc9g"
+              frameBorder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
             <a
-              href="https://revmmm.files.wordpress.com/2020/12/12-6-bulletin.pdf"
+              href="https://revmmm.files.wordpress.com/2020/12/12-13-buletin.pdf"
               className="button"
               target="_blank"
               rel="noopener noreferrer"
@@ -53,7 +39,7 @@ class CurrentSermons extends React.Component {
                 justifyContent: 'center',
               }}
             >
-              Bulletin: Sunday, December 6th
+              Bulletin: Sunday, December 13th
             </a>
           </section>
           <br />
