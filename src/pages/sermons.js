@@ -24,7 +24,7 @@ const Sermons = () => (
             title="Sermon 2020/12/06.1"
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/7GwFpdQsyWQ"
+            src="https://www.youtube.com/embed/-BzkFDvqc9g"
             frameBorder="0"
             style={{"paddingBottom":"0.5em"}}
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
