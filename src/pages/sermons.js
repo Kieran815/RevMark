@@ -21,6 +21,34 @@ const Sermons = () => (
         <section>
           <iframe
             className="yt_videos"
+            title="Sermon 2020/12/24"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/r5rUeS8T8cE"
+            frameBorder="0"
+            style={{"paddingBottom":"0.5em"}}
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+          <a
+            href="https://revmmm.files.wordpress.com/2020/12/12-24-6pm.pdf"
+            className="button"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              marginBottom: '0.5em',
+              display: 'flex',
+              justifyContent: 'center',
+            }}
+          >
+            Bulletin: Christmas Eve 2020
+          </a>
+        </section>
+        <br />
+        <br />
+        <section>
+          <iframe
+            className="yt_videos"
             title="Sermon 2020/12/20"
             width="560"
             height="315"
@@ -134,7 +162,7 @@ const Sermons = () => (
           <section>
             <iframe
               className="yt_videos"
-              title="Sermon 2020/11/22"
+              title="Sermon 2020/11/29"
               width="560"
               height="315"
               src="https://www.youtube.com/embed/dIrTkX6082A"

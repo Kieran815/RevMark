@@ -29,7 +29,7 @@ class CurrentSermons extends React.Component {
               allowFullScreen
             ></iframe>
             <a
-              href="https://revmmm.files.wordpress.com/2020/12/12-20-bulletin-1.pdf"
+              href="https://revmmm.files.wordpress.com/2020/12/12-24-6pm.pdf"
               className="button"
               target="_blank"
               rel="noopener noreferrer"
@@ -39,7 +39,7 @@ class CurrentSermons extends React.Component {
                 justifyContent: 'center',
               }}
             >
-              Bulletin: Sunday, December 20th
+              Bulletin: Christmas Eve 2020
             </a>
           </section>
           <br />
