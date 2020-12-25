@@ -23,7 +23,7 @@ class CurrentSermons extends React.Component {
               title="Current Week's Sermons"
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/r5rUeS8T8cE"
+              src="https://www.youtube.com/embed/ns6tPR-KnVM"
               frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
