@@ -6,7 +6,7 @@ const Tag = () => {
       <sub>
         <p>
           &copy; 2020,
-          <a href="/" rel="noopener noreferrer">
+          <a href="https://kmilligan.info/" target="_blank" rel="noopener noreferrer">
             K. Michael Milligan
           </a>
         </p>
