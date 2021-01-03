@@ -23,13 +23,13 @@ class CurrentSermons extends React.Component {
               title="Current Week's Sermons"
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/3AmeWUeVTOc"
+              src="https://www.youtube.com/embed/P6S-Qrvhx1k"
               frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
             <a
-              href="https://revmmm.files.wordpress.com/2020/12/12-27.pdf"
+              href="https://revmmm.files.wordpress.com/2020/12/1-3.pdf"
               className="button"
               target="_blank"
               rel="noopener noreferrer"
@@ -39,7 +39,7 @@ class CurrentSermons extends React.Component {
                 justifyContent: 'center',
               }}
             >
-              Bulletin: Sunday, December 27th
+              Bulletin: Sunday, January 3rd
             </a>
           </section>
           <br />

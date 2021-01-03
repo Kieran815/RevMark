@@ -7,6 +7,46 @@ const Sermons = () => (
       <header className="major">
         <h1>Sermons</h1>
       </header>
+      <section id="two">
+        <div
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            marginBottom: '1em',
+          }}
+        >
+          <h2 id="december">January 2021</h2>
+          <section>
+            <iframe
+              className="yt_videos"
+              title="Sermon 2021/01/03"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/P6S-Qrvhx1k"
+              frameBorder="0"
+              style={{"paddingBottom":"0.5em"}}
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+            <a
+              href="https://revmmm.files.wordpress.com/2020/12/1-3.pdf"
+              className="button"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                marginBottom: '0.5em',
+                display: 'flex',
+                justifyContent: 'center',
+              }}
+            >
+              Bulletin: January 3rd 2021
+            </a>
+            </section>
+          </div>
+          </section>
+          <br />
+          <br />
 
       <section id="two">
         <div
