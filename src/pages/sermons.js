@@ -20,12 +20,40 @@ const Sermons = () => (
           <section>
             <iframe
               className="yt_videos"
+              title="Sermon 2021/01/17"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/-kHu65YE0rw"
+              frameBorder="0"
+              style={{ paddingBottom: '0.5em' }}
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+            <a
+              href="https://revmmm.files.wordpress.com/2021/01/1-17-bulletin.pdf"
+              className="button"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                marginBottom: '0.5em',
+                display: 'flex',
+                justifyContent: 'center',
+              }}
+            >
+              Bulletin: January 17th 2021
+            </a>
+          </section>
+          <br />
+          <br />
+          <section>
+            <iframe
+              className="yt_videos"
               title="Sermon 2021/01/03"
               width="560"
               height="315"
               src="https://www.youtube.com/embed/P6S-Qrvhx1k"
               frameBorder="0"
-              style={{"paddingBottom":"0.5em"}}
+              style={{ paddingBottom: '0.5em' }}
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
@@ -42,11 +70,9 @@ const Sermons = () => (
             >
               Bulletin: January 3rd 2021
             </a>
-            </section>
-          </div>
           </section>
-          <br />
-          <br />
+        </div>
+      </section>
 
       <section id="two">
         <div
@@ -57,165 +83,164 @@ const Sermons = () => (
             marginBottom: '1em',
           }}
         >
-        <h2 id="december">December 2020</h2>
-        <section>
-          <iframe
-            className="yt_videos"
-            title="Sermon 2020/12/27"
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/3AmeWUeVTOc"
-            frameBorder="0"
-            style={{"paddingBottom":"0.5em"}}
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
-          <a
-            href="https://revmmm.files.wordpress.com/2020/12/12-27.pdf"
-            className="button"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              marginBottom: '0.5em',
-              display: 'flex',
-              justifyContent: 'center',
-            }}
-          >
-            Bulletin: December 27th
-          </a>
-        </section>
-        <br />
-        <br />
-        <section>
-          <iframe
-            className="yt_videos"
-            title="Sermon 2020/12/24"
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/ns6tPR-KnVM"
-            frameBorder="0"
-            style={{"paddingBottom":"0.5em"}}
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
-          <a
-            href="https://revmmm.files.wordpress.com/2020/12/12-24-6pm.pdf"
-            className="button"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              marginBottom: '0.5em',
-              display: 'flex',
-              justifyContent: 'center',
-            }}
-          >
-            Bulletin: Christmas Eve 2020
-          </a>
-        </section>
-        <br />
-        <br />
-        <section>
-          <iframe
-            className="yt_videos"
-            title="Sermon 2020/12/20"
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/r5rUeS8T8cE"
-            frameBorder="0"
-            style={{"paddingBottom":"0.5em"}}
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
-          <a
-            href="https://revmmm.files.wordpress.com/2020/12/12-20-bulletin-1.pdf"
-            className="button"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              marginBottom: '0.5em',
-              display: 'flex',
-              justifyContent: 'center',
-            }}
-          >
-            Bulletin: Sunday, December 20th
-          </a>
-        </section>
-        <br />
-        <br />
-        <section>
-          <iframe
-            className="yt_videos"
-            title="Sermon 2020/12/13"
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/-BzkFDvqc9g"
-            frameBorder="0"
-            style={{"paddingBottom":"0.5em"}}
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
-          <a
-            href="https://revmmm.files.wordpress.com/2020/12/12-13-buletin.pdf"
-            className="button"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              marginBottom: '0.5em',
-              display: 'flex',
-              justifyContent: 'center',
-            }}
-          >
-            Bulletin: Sunday, December 13th
-          </a>
-        </section>
-        <br />
-        <br />
-        <section>
-          <div style={{"display": "flex", "flexDirection": "column"}}>
+          <h2 id="december">December 2020</h2>
+          <section>
             <iframe
               className="yt_videos"
-              title="Sermon 2020/12/06.1"
+              title="Sermon 2020/12/27"
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/7GwFpdQsyWQ"
+              src="https://www.youtube.com/embed/3AmeWUeVTOc"
               frameBorder="0"
-              style={{"paddingBottom":"0.5em"}}
+              style={{ paddingBottom: '0.5em' }}
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
-            <p>Part I</p>
+            <a
+              href="https://revmmm.files.wordpress.com/2020/12/12-27.pdf"
+              className="button"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                marginBottom: '0.5em',
+                display: 'flex',
+                justifyContent: 'center',
+              }}
+            >
+              Bulletin: December 27th
+            </a>
+          </section>
+          <br />
+          <br />
+          <section>
             <iframe
               className="yt_videos"
-              title="Sermon 2020/12/06.2"
+              title="Sermon 2020/12/24"
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/sGidqHr3mx4"
+              src="https://www.youtube.com/embed/ns6tPR-KnVM"
               frameBorder="0"
+              style={{ paddingBottom: '0.5em' }}
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
-            <p>Part II</p>
-          </div>
-          <a
-            href="https://revmmm.files.wordpress.com/2020/12/12-6-bulletin.pdf"
-            className="button"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              marginBottom: '0.5em',
-              display: 'flex',
-              justifyContent: 'center',
-            }}
-          >
-            Bulletin: Sunday, December 6th
-          </a>
-        </section>
-        <br />
-        <br />
-
+            <a
+              href="https://revmmm.files.wordpress.com/2020/12/12-24-6pm.pdf"
+              className="button"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                marginBottom: '0.5em',
+                display: 'flex',
+                justifyContent: 'center',
+              }}
+            >
+              Bulletin: Christmas Eve 2020
+            </a>
+          </section>
+          <br />
+          <br />
+          <section>
+            <iframe
+              className="yt_videos"
+              title="Sermon 2020/12/20"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/r5rUeS8T8cE"
+              frameBorder="0"
+              style={{ paddingBottom: '0.5em' }}
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+            <a
+              href="https://revmmm.files.wordpress.com/2020/12/12-20-bulletin-1.pdf"
+              className="button"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                marginBottom: '0.5em',
+                display: 'flex',
+                justifyContent: 'center',
+              }}
+            >
+              Bulletin: Sunday, December 20th
+            </a>
+          </section>
+          <br />
+          <br />
+          <section>
+            <iframe
+              className="yt_videos"
+              title="Sermon 2020/12/13"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/-BzkFDvqc9g"
+              frameBorder="0"
+              style={{ paddingBottom: '0.5em' }}
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+            <a
+              href="https://revmmm.files.wordpress.com/2020/12/12-13-buletin.pdf"
+              className="button"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                marginBottom: '0.5em',
+                display: 'flex',
+                justifyContent: 'center',
+              }}
+            >
+              Bulletin: Sunday, December 13th
+            </a>
+          </section>
+          <br />
+          <br />
+          <section>
+            <div style={{ display: 'flex', flexDirection: 'column' }}>
+              <iframe
+                className="yt_videos"
+                title="Sermon 2020/12/06.1"
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/7GwFpdQsyWQ"
+                frameBorder="0"
+                style={{ paddingBottom: '0.5em' }}
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+              <p>Part I</p>
+              <iframe
+                className="yt_videos"
+                title="Sermon 2020/12/06.2"
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/sGidqHr3mx4"
+                frameBorder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+              <p>Part II</p>
+            </div>
+            <a
+              href="https://revmmm.files.wordpress.com/2020/12/12-6-bulletin.pdf"
+              className="button"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                marginBottom: '0.5em',
+                display: 'flex',
+                justifyContent: 'center',
+              }}
+            >
+              Bulletin: Sunday, December 6th
+            </a>
+          </section>
+          <br />
+          <br />
         </div>
       </section>
-{/* **** END DECEMBER **** */}
+      {/* **** END DECEMBER **** */}
 
       <section id="two">
         <div
@@ -362,7 +387,6 @@ const Sermons = () => (
           </section>
           <br />
           <br />
-
         </div>
       </section>
 
