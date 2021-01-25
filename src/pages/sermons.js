@@ -20,6 +20,34 @@ const Sermons = () => (
           <section>
             <iframe
               className="yt_videos"
+              title="Sermon 2021/01/24"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/t3tU6s1VPyY"
+              frameBorder="0"
+              style={{ paddingBottom: '0.5em' }}
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+            <a
+              href="https://revmmm.files.wordpress.com/2021/01/1-24-bulletin.pdf"
+              className="button"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                marginBottom: '0.5em',
+                display: 'flex',
+                justifyContent: 'center',
+              }}
+            >
+              Bulletin: January 24th 2021
+            </a>
+          </section>
+          <br />
+          <br />
+          <section>
+            <iframe
+              className="yt_videos"
               title="Sermon 2021/01/17"
               width="560"
               height="315"
