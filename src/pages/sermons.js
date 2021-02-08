@@ -16,7 +16,51 @@ const Sermons = () => (
             marginBottom: '1em',
           }}
         >
+          <h2 id="december">February 2021</h2>
+          <section>
+            <iframe
+              className="yt_videos"
+              title="Sermon 2021/02/07"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/3s9PX8znz4c"
+              frameBorder="0"
+              style={{ paddingBottom: '0.5em' }}
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+            <a
+              href="https://revmmm.files.wordpress.com/2021/02/2-7-2021-bulletin.pdf"
+              className="button"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                marginBottom: '0.5em',
+                display: 'flex',
+                justifyContent: 'center',
+              }}
+            >
+              Bulletin: February 7th 2021
+            </a>
+          </section>
+        </div>
+      </section>
+      <section id="two">
+        <div
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            marginBottom: '1em',
+          }}
+        >
           <h2 id="december">January 2021</h2>
+          <section>
+            <h3>January 31st, 2020</h3>
+            <h3>Service Cancelled due to Weather</h3>
+          </section>
+          <br />
+          <br />
           <section>
             <iframe
               className="yt_videos"
@@ -101,7 +145,6 @@ const Sermons = () => (
           </section>
         </div>
       </section>
-
       <section id="two">
         <div
           style={{
@@ -269,7 +312,6 @@ const Sermons = () => (
         </div>
       </section>
       {/* **** END DECEMBER **** */}
-
       <section id="two">
         <div
           style={{
@@ -417,7 +459,6 @@ const Sermons = () => (
           <br />
         </div>
       </section>
-
       <section id="two">
         <div
           style={{
