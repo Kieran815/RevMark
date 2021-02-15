@@ -20,6 +20,32 @@ const Sermons = () => (
           <section>
             <iframe
               className="yt_videos"
+              title="Sermon 2021/02/14"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/zbtcX-nZ6mU"
+              frameBorder="0"
+              style={{ paddingBottom: '0.5em' }}
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+            <a
+              href="https://revmmm.files.wordpress.com/2021/02/2-14-bulletin.pdf"
+              className="button"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                marginBottom: '0.5em',
+                display: 'flex',
+                justifyContent: 'center',
+              }}
+            >
+              Bulletin: February 14th 2021
+            </a>
+          </section>
+          <section>
+            <iframe
+              className="yt_videos"
               title="Sermon 2021/02/07"
               width="560"
               height="315"
@@ -1377,7 +1403,7 @@ const Sermons = () => (
             ></iframe>
           </section>
         </div>
-        {/* End of YouTube Videos */}
+        {/* ******************** End of YouTube Videos ******************** */}
         <div
           className="actions"
           style={{
