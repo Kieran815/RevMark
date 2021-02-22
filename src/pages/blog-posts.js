@@ -8,9 +8,7 @@ export default ({ data }) => {
     <Layout>
       <div id="main">
         <section id="messageHead">
-          <header
-            className="major"
-          >
+          <header className="major">
             <h1>Messages from Rev. Mark</h1>
           </header>
         </section>
@@ -53,7 +51,9 @@ export default ({ data }) => {
 
 export const query = graphql`
   query {
-    allWordpressPost {
+    allWordpressPost(
+      filter: { categories: { elemMatch: { name: { eq: "Articles" } } } }
+    ) {
       nodes {
         title
         date(formatString: "YY-MM-DD")

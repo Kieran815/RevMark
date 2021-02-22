@@ -4,9 +4,11 @@ exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
 
   const createWpPosts = new Promise((resolve, reject) => {
-    const query = graphql(`
+    const articleQuery = graphql(`
       {
-        allWordpressPost {
+        allWordpressPost(
+          filter: { categories: { elemMatch: { name: { eq: "Articles" } } } }
+        ) {
           edges {
             node {
               id
@@ -17,7 +19,22 @@ exports.createPages = ({ graphql, actions }) => {
       }
     `)
 
-    query.then((result) => {
+    const sermonQuery = graphql(`
+      {
+        allWordpressPost(
+          filter: { categories: { elemMatch: { name: { eq: "Sermons" } } } }
+        ) {
+          edges {
+            node {
+              id
+              slug
+            }
+          }
+        }
+      }
+    `)
+
+    articleQuery.then((result) => {
       if (result.errors) {
         console.error(results.errors)
         reject(result.error)
@@ -26,7 +43,7 @@ exports.createPages = ({ graphql, actions }) => {
 
       postEdges.forEach((edge) => {
         createPage({
-          path: `blog-posts/${edge.node.slug}`,
+          path: `articles/${edge.node.slug}`,
           component: path.resolve(`./src/templates/blog-post.js`),
           context: {
             id: edge.node.id,
@@ -35,6 +52,25 @@ exports.createPages = ({ graphql, actions }) => {
       })
       resolve()
     }) // query.then
+
+    sermonQuery.then((result) => {
+      if (result.errors) {
+        console.error(results.errors)
+        reject(result.error)
+      }
+      const postEdges = result.data.allWordpressPost.edges
+
+      postEdges.forEach((edge) => {
+        createPage({
+          path: `sermons/${edge.node.slug}`,
+          component: path.resolve(`./src/templates/sermons.js`),
+          context: {
+            id: edge.node.id,
+          },
+        })
+      })
+      resolve()
+    })
   }) // createWpPosts
 
   return Promise.all([createWpPosts])
