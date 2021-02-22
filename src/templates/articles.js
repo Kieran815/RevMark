@@ -11,7 +11,7 @@ export default ({ data }) => {
         <div dangerouslySetInnerHTML={{ __html: post.content }} />
         <div id="btnDiv" style={{ display: 'flex', justifyContent: 'center' }}>
           <a
-            href="/blog-posts"
+            href="/articles"
             className="button"
             style={{
               maxWidth: '15vw',

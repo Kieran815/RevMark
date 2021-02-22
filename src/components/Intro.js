@@ -100,12 +100,12 @@ const Intro = () => {
         }}
       >
         <a href="/sermons" className="button">
-          Sermon Archive
+          Sermons
         </a>
         <a href="/bible_stories" className="button">
           Bible Stories
         </a>
-        <a href="/blog-posts" className="button">
+        <a href="/articles" className="button">
           Messages
         </a>
         <a

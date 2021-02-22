@@ -44,7 +44,7 @@ exports.createPages = ({ graphql, actions }) => {
       postEdges.forEach((edge) => {
         createPage({
           path: `articles/${edge.node.slug}`,
-          component: path.resolve(`./src/templates/blog-post.js`),
+          component: path.resolve(`./src/templates/articles.js`),
           context: {
             id: edge.node.id,
           },
