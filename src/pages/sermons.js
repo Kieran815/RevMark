@@ -15,6 +15,7 @@ export default ({ data }) => {
             View sermons from prior sundays. The bulletins for each sermon are
             linked below the video, for your convenience.
           </p>
+          <hr />
           <div
             style={{
               display: 'flex',
@@ -24,23 +25,20 @@ export default ({ data }) => {
             }}
           >
             {posts.map((post, index) => (
-              <a
-                className="button"
-                href={post.slug}
-                key={index}
-                style={{ minWidth: '80%' }}
-              >
+              <a href={post.slug} key={index} style={{ minWidth: '80%' }}>
                 <div
                   style={{
                     display: 'flex',
-                    justifyContent: 'space-between',
+                    justifyContent: 'center',
+                    alignItems: 'center',
                   }}
                 >
                   <h2
                     key={index}
+                    className="button"
                     style={{
                       textDecoration: 'underline',
-                      color: 'black',
+                      color: 'gray',
                       textAlign: 'center',
                     }}
                   >
@@ -50,6 +48,7 @@ export default ({ data }) => {
               </a>
             ))}
           </div>
+          <hr />
           {/* ******************** End of YouTube Videos ******************** */}
           <div
             className="actions"

@@ -13,7 +13,14 @@ export default ({ data }) => {
           style={{ textAlign: 'center', padding: '1.5em' }}
           dangerouslySetInnerHTML={{ __html: post.content }}
         />
-        <div id="btnDiv" style={{ display: 'flex', justifyContent: 'center' }}>
+        <div
+          id="btnDiv"
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+        >
           <a href="/sermons" className="button">
             Back to Sermon Archive
           </a>
