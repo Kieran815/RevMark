@@ -49,7 +49,7 @@ export default ({ data }) => {
             ))}
           </div>
           <hr />
-          {/* ******************** End of YouTube Videos ******************** */}
+          {/* ******************* End of YouTube Videos ******************* */}
           <div
             className="actions"
             style={{

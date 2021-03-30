@@ -1561,14 +1561,21 @@ body.is-touch {
     max-width: 100vw;
   }
 
+  // main {
+  //   display: flex;
+  //   flex-direction: column;
+  //   align-items: center;
+  //   max-width: 90vw;
+  // }
+
   #footer-section {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
 
-  .yt_videos {
-    max-width: 90vw;
-    max-height: auto;
+  iframe {
+    max-width: 70%;
+    height: auto;
   }
 }

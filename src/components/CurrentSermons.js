@@ -1,5 +1,5 @@
 import React from 'react'
-import { graphql, StaticQuery } from 'gatsby'
+// import { graphql, StaticQuery } from 'gatsby'
 
 class CurrentSermons extends React.Component {
   render() {
@@ -23,13 +23,13 @@ class CurrentSermons extends React.Component {
               title="Current Week's Sermons"
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/PHEyw8M4cqg"
+              src="https://www.youtube.com/embed/xW3rnTaxx1E"
               frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             ></iframe>
             <a
-              href="https://revmmm.files.wordpress.com/2021/03/3-21-bulletin.pdf"
+              href="https://revmmm.files.wordpress.com/2021/03/3-28-bulletin.pdf"
               className="button"
               target="_blank"
               rel="noopener noreferrer"
@@ -43,7 +43,7 @@ class CurrentSermons extends React.Component {
             </a>
           </section>
           <br />
-          <StaticQuery
+          {/* <StaticQuery
             query={graphql`
               query MyQuery {
                 youtubeVideo {
@@ -85,7 +85,7 @@ class CurrentSermons extends React.Component {
                 </section>
               </div>
             )}
-          />
+          /> */}
           <div
             className="actions"
             style={{
